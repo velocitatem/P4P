@@ -5,9 +5,9 @@ Next.js interface for PHANTOM pricing experiments in hotel and airline modes.
 ## Dataflow
 
 ```text
-┌─────────────────────────────────────┐
+┌──────────────────────────────────────┐
 │User Interactions ──▶ Event Emissions│
-└────────────────────────────┬────────┘
+└─────────────────────────────┬────────┘
                              ▼         
  Pricing API ◀────────┐Backend Service 
  Kafka ◀── Ingestion ◀┘                
